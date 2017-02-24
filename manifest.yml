@@ -1,0 +1,8 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: hello-bluemix-java-hongjs
+  host: hello-bluemix-java-hongjs
+  disk_quota: 1024M
